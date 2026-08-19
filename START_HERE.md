@@ -7,7 +7,7 @@ commands. It does **not** assume you know Docker, MCP, or how AI agents work.
 
 ![Workers file JSON; a reviewer judges; only then may a messenger speak](docs/hero.png)
 
-**One sentence:** background workers write a locked JSON file instead of
+Background workers write a locked JSON file instead of
 messaging a human, so a *different* program can reject or approve the wording
 before anyone is paged.
 
