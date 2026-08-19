@@ -4,12 +4,12 @@
 
 ![Agent Review Envelope: workers file JSON; a reviewer judges; only then may a messenger speak](docs/hero.png)
 
-**One sentence:** Agent Review Envelope is a tiny Python library that makes
+Agent Review Envelope is a tiny Python library that makes
 background **workers file a schema-locked JSON envelope** instead of messaging
 humans, so a *different* process can fix, reject, or escalate before anyone
 is paged.
 
-**Value proposition:** If the same agent that *found* a problem is allowed to
+* If the same agent that *found* a problem is allowed to
 *word* the Slack/Signal/email, prompt injection and personality bleed become
 “ops alerts.” This kernel restores **generator ≠ evaluator** with an atomic
 filesystem outbox you can run on a laptop in ten minutes.
