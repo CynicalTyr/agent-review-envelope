@@ -1,0 +1,7 @@
+github_repo: agent-review-envelope
+description: Schema-locked filesystem envelopes so agent workers cannot message humans until a different process judges.
+homepage: START_HERE.md
+private: true
+topics: ai-agents,llm,outbox,review-queue,fail-closed,human-in-the-loop
+source_folder: review-envelope
+python: '3.12'

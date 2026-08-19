@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agent-review-envelope": {
+      "command": "python3",
+      "args": ["/ABS/PATH/examples/mcp_server.py"],
+      "env": {
+        "AGENT_HOME": "/tmp/review-envelope-demo"
+      }
+    }
+  }
+}
